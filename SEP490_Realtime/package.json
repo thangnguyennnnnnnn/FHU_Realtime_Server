@@ -1,0 +1,25 @@
+{
+  "name": "fhc-realtime-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server-realtime.js",
+  "scripts": {
+    "start": "node server-realtime.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thangnguyennnn/fhc-realtime-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thangnguyennnn/fhc-realtime-service/issues"
+  },
+  "homepage": "https://github.com/thangnguyennnn/fhc-realtime-service#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "ws": "^8.13.0"
+  }
+}
